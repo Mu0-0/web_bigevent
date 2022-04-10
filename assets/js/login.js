@@ -1,4 +1,6 @@
 $(function() {
+    localStorage.removeItem('token')
+
     // 点击“去注册账号”的链接
     $('#link_reg').on('click', function() {
         $('.login-box').hide()
